@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+@theme {
+  --font-arabic: 'Tajawal', 'Cairo', system-ui, -apple-system, sans-serif;
+  --font-cairo: 'Cairo', 'Tajawal', system-ui, sans-serif;
+  --font-latin: 'Plus Jakarta Sans', system-ui, sans-serif;
+
+  /* Authentic Al-Kawther Feed Bag Color Palette */
+  --color-brand-pink: #e13b6b;
+  --color-brand-pink-hover: #c92556;
+  --color-brand-pink-light: #fff2f6;
+  --color-brand-pink-surface: #fdf0f4;
+  --color-brand-pink-border: #fad3e1;
+
+  --color-bag-navy: #1e255e;
+  --color-bag-green: #16a34a;
+  --color-bag-red: #e11d48;
+
+  /* Harmonized tokens mapped to feed bag palette */
+  --color-mauve-50: #fff5f8;
+  --color-mauve-100: #fde8f0;
+  --color-mauve-200: #fcd5e3;
+  --color-mauve-300: #f8adc7;
+  --color-mauve-600: #e13b6b;
+  --color-mauve-700: #c92556;
+  --color-mauve-800: #a71844;
+  --color-mauve-900: #1e255e;
+  --color-mauve-950: #141838;
+
+  --color-soft-pink: #f896b5;
+  --color-soft-pink-light: #fff2f6;
+  --color-soft-pink-dark: #d8265d;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Tajawal', 'Cairo', system-ui, sans-serif;
+  background-color: #fff6f9;
+  color: #1e255e;
+}
+
+[dir="ltr"] {
+  font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+}
+
+.heading-font {
+  font-family: 'Cairo', 'Tajawal', system-ui, sans-serif;
+}
+
