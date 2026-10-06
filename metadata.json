@@ -1,0 +1,6 @@
+{
+  "name": "أعلاف الكوثر | Al Kawther Feeds",
+  "description": "أعلاف الكوثر علامة متخصصة في توفير وتوريد الأعلاف عالية الجودة للمجترات، شركة بحار الجوبة للتجارة، سناو، سلطنة عمان.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
